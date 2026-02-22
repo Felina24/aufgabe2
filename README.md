@@ -96,7 +96,7 @@ http://localhost/admin/login
 - 一般ユーザーログイン
 http://localhost/login
 
-- Mailhog  
+- Mailhog
 http://localhost:8025
 
 ※ メール認証は Mailhog 上で確認します。
