@@ -56,26 +56,26 @@ cp .env.example .env
 
 ※ .env は以下のように設定
 
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:xITZn17wZBbaWRwRtnq5s+DpLai/6b4XmXC8KijCxvE=
-APP_DEBUG=true
+APP_NAME=Laravel 
+APP_ENV=local 
+APP_KEY=base64:xITZn17wZBbaWRwRtnq5s+DpLai/6b4XmXC8KijCxvE= 
+APP_DEBUG=true 
 APP_URL=http://localhost
 
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3306
-DB_DATABASE=laravel_db
-DB_USERNAME=laravel_user
+DB_CONNECTION=mysql 
+DB_HOST=mysql 
+DB_PORT=3306 
+DB_DATABASE=laravel_db 
+DB_USERNAME=laravel_user 
 DB_PASSWORD=laravel_pass
 
-MAIL_MAILER=smtp
-MAIL_HOST=mailhog
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=no-reply@example.com
+MAIL_MAILER=smtp 
+MAIL_HOST=mailhog 
+MAIL_PORT=1025 
+MAIL_USERNAME=null 
+MAIL_PASSWORD=null 
+MAIL_ENCRYPTION=null 
+MAIL_FROM_ADDRESS=no-reply@example.com 
 MAIL_FROM_NAME="${APP_NAME}"
 
 ### 6. アプリケーションキーの生成
