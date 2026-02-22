@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.logo {
+    height: 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.form-group input {
+    width: 680px;
+    height: 60px;
+    font-size: 24px;
+    padding: 0 16px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.login-button {
+    width: 680px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 36px;
+}
+
+.error-message {
+    font-size: 14px;
+    color: red;
+    margin-top: 8px;
+}
+
+.error-center {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.form-link {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #0073CC;
+}
+
+.form-link a {
+    color: #0073CC;
+    text-decoration: none;
+}
